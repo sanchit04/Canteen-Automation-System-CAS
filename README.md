@@ -45,6 +45,4 @@ The project “Canteen Automation System” enables the end users to register on
 - Yearly Report
      - Gives report about the different type of product ordered on yearly basis and provided yearly comparsions about the profits and the loss.
      
-## Screenshots--
-
-
+### Please note that not all files are added up only the startup code is added to get an overview about the project build because of the copyright issues.
