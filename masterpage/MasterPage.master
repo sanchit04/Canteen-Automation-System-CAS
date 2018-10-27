@@ -1,0 +1,51 @@
+﻿<%--<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>--%>
+
+<!DOCTYPE html>
+<script runat="server">
+
+    
+</script>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>
+        <asp:ContentPlaceHolder ID="title" runat="server"></asp:ContentPlaceHolder>
+    </title>
+    <link href="Styles/main.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 950px;
+            height: 300px;
+        }
+    </style>
+</head>
+<body style="background-image:url('Image/spoon.jpg')">
+    <form id="form1" runat="server">
+        <div class="wrapper">
+            <div class="Menu">
+                <ul>
+                    <li class="navigation_first_item"><a href="Default.aspx">Home</a></li>
+                    <li><a href="AboutUs.aspx">About Us</a></li>
+                    <li><a href="ContactUs.aspx">Contact Us</a></li>
+                    <li><a href="Feedback.aspx">Feedback</a></li>
+                </ul>
+            </div>
+            
+            <div class="clear"></div>
+                <img class="auto-style1" src="Image/canteenpic.jpg" />
+             <div class="content">
+             <asp:ContentPlaceHolder id="ContentBody" runat="server">
+            
+             </asp:ContentPlaceHolder>
+             </div>
+            <div class="clear"></div>
+            <div class="footer">
+                <h2>Canteen Automation System</h2>
+            </div>
+            </div>
+    </form>
+            </body>
+</html>

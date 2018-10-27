@@ -1,0 +1,247 @@
+﻿/*Student Registration Page*/
+
+
+body {
+background-repeat: no-repeat;
+background-size:cover;
+height:98vh;
+}
+
+
+.Panel {
+height: 500px; 
+width: 410px;
+background-color: black;
+-webkit-box-shadow: 0px 0px 10px rgba(0,0,0,1);
+color: #0000FF;
+opacity: .3;
+}
+
+
+h1 {
+margin:0;
+padding: 0 0 10px;
+text-align:center;
+font-size: 22px;
+color:white;
+position:absolute;
+top:120px;
+right:620px;
+}
+
+
+.fname_txt {
+background-color:white;
+float:left;
+margin:-400px 0px 0px 600px;
+width: 220px;
+height:32px;
+padding-left: 10px;
+font-family:sans-serif;
+font-size:13px;
+font-weight:bold;
+border:1px solid #ccc;
+}
+
+
+.fname_label {
+color: white;
+margin:-390px 0px 0px 510px;
+float:left;
+}
+
+
+.mname_txt {
+background-color:white;
+float:left;
+margin:-350px 0px 0px 600px;
+width: 220px;
+height:32px;
+padding-left: 10px;
+font-family:sans-serif;
+font-size:13px;
+font-weight:bold;
+border:1px solid #ccc;
+}
+
+
+.mname_label {
+color: white;
+margin:-340px 0px 0px 500px;
+float:left;
+}
+
+
+
+.lname_txt {
+background-color:white;
+float:left;
+margin:-300px 0px 0px 600px;
+width: 220px;
+height:32px;
+padding-left: 10px;
+font-family:sans-serif;
+font-size:13px;
+font-weight:bold;
+border:1px solid #ccc;
+}
+
+
+.lname_label {
+color: white;
+margin:-290px 0px 0px 510px;
+float:left;
+}
+
+
+.rfno_txt {
+background-color:white;
+float:left;
+margin:-250px 0px 0px 600px;
+width: 220px;
+height:32px;
+padding-left: 10px;
+font-family:sans-serif;
+font-size:13px;
+font-weight:bold;
+border:1px solid #ccc;
+}
+
+
+.rfno_label {
+color: white;
+margin:-240px 0px 0px 510px;
+float:left;
+}
+
+
+.email_txt {
+background-color:white;
+float:left;
+margin:-200px 0px 0px 600px;
+width: 220px;
+height:32px;
+padding-left: 10px;
+font-family:sans-serif;
+font-size:13px;
+font-weight:bold;
+border:1px solid #ccc;
+}
+
+
+.email_label {
+color: white;
+margin:-190px 0px 0px 510px;
+float:left;
+}
+
+
+
+.pass_txt {
+background-color:white;
+float:left;
+margin:-150px 0px 0px 600px;
+width: 220px;
+height:32px;
+padding-left: 10px;
+font-family:sans-serif;
+font-size:13px;
+font-weight:bold;
+border:1px solid #ccc;
+}
+
+
+.pass_label {
+color: white;
+margin:-140px 0px 0px 510px;
+float:left;
+}
+
+
+.conf_txt {
+background-color:white;
+float:left;
+margin:-100px 0px 0px 600px;
+width: 220px;
+height:32px;
+padding-left: 10px;
+font-family:sans-serif;
+font-size:13px;
+font-weight:bold;
+border:1px solid #ccc;
+}
+
+
+.conf_label {
+color: white;
+margin:-90px 0px 0px 470px;
+float:left;
+}
+
+
+
+
+.btn_preview {
+border: none;
+outline: none;
+height: 33px;
+background: #1c8adb;
+color:#fff;
+font-size: 20px;
+border-radius:0px;
+width:100px;
+position:absolute;
+top:-45px;
+right:620px;
+}
+
+.btn_preview:hover {
+cursor:pointer;
+background: #0059a4;
+color:white;    
+}
+
+
+.btn_edit {
+border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    outline: none;
+    height: 33px;
+    background: #1c8adb;
+    color:#fff;
+    font-size: 20px;
+    border-radius:0px;
+    width:100px;
+    position:absolute;
+    top:-45px;
+    right:690px;
+}
+
+.btn_edit:hover {
+cursor:pointer;
+background: #0059a4;
+color:white;    
+}
+
+
+
+.btn_submit {
+border: none;
+outline: none;
+height: 33px;
+background: #1c8adb;
+color:#fff;
+font-size: 20px;
+border-radius:0px;
+width:100px;
+position:absolute;
+top:-45px;
+right:550px;
+}
+
+.btn_submit:hover {
+cursor:pointer;
+background: #0059a4;
+color:white;    
+}

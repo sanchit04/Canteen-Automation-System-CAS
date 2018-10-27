@@ -1,0 +1,153 @@
+﻿/* Student Login Page*/
+
+
+body {
+background-repeat: no-repeat;
+background-size:cover;
+height:98vh;
+}
+
+
+.Panel {
+height: 450px; 
+width: 350px;
+background-color: black;
+-webkit-box-shadow: 0px 0px 10px rgba(0,0,0,1);
+color: #0000FF;
+opacity: .3;
+
+}
+
+
+.login_un {
+background-color:white;
+float:left;
+margin:-350px 0px 0px 600px;
+width: 220px;
+height:32px;
+padding-left: 10px;
+font-family:sans-serif;
+font-size:13px;
+font-weight:bold;
+border:1px solid #ccc;
+}
+
+
+.login_label {
+color: white;
+margin:-343px 0px 0px 510px;
+float:left;
+}
+
+
+
+.pass_un {
+background-color:white;
+color:black;
+float:left;
+margin:-300px 0px 0px 600px;
+width: 220px;
+height:32px;
+padding-left: 10px;
+font-family:sans-serif;
+font-size:13px;
+font-weight:bold;
+border:1px solid #ccc;
+}
+
+
+.label_pass {
+color: white;
+margin:-275px 0px 0px 510px;
+float:left;
+}
+
+
+/*.login_box {
+width:320px;
+height:200px;
+background: rgba(0,0,0,0.5);
+color: #fff;
+top: 50%;
+left: 50%;
+position: absolute;
+transform: translate(-50%,-50%);
+box-sizing: border-box;
+}*/
+
+.person {
+width:90px;
+height:90px;
+border-radius:50%;
+position:absolute;
+top:30.5px;
+left: calc(50% - 50px);
+}
+
+h1 {
+    margin:0;
+padding: 0 0 10px;
+text-align:center;
+font-size: 22px;
+color:white;
+position:absolute;
+top:140px;
+right:620px;
+}
+
+
+.btn_login {
+border: none;
+outline: none;
+height: 35px;
+background: #1c8adb;
+color:#fff;
+font-size: 20px;
+border-radius:10px;
+width:330px;
+position:absolute;
+top:-195px;
+right:500px;
+}
+
+.btn_login:hover {
+cursor:pointer;
+background: #0059a4;
+color:white;    
+}
+
+
+.modal_body a {
+text-decoration:none;
+font-size: 14px;
+color:#fff;
+position:absolute;
+top:-140px;
+right:710px;
+}
+
+
+.modal_body a:hover {
+color:  darkblue;
+}
+
+
+.regi a {
+text-decoration:none;
+font-size: 14px;
+color:#fff;
+position:absolute;
+top:-110px;
+right:630px;
+}
+
+
+.regi a:hover {
+color:  darkblue;
+}
+
+
+
+
+
+
